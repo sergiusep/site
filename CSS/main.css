@@ -1049,5 +1049,37 @@ section {
         display: grid;
         row-gap: 2rem;
     }
+    
+    .despre-noi .row {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        align-items: center;
+        column-gap: 2rem;
+
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+
+        text-align: center;
+        vertical-align: middle;
+        line-height: 90px;
+
+    }
+
+    .despre-noi-icons {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        background: var(--white-smoke);
+
+        transition: var(--transition);
+    }
+
+    h2 {
+        text-align: center;
+    }
 
 }
