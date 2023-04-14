@@ -1090,4 +1090,8 @@ section {
         padding: 0 0;
     }
     
+    .consultanta-juridica-left img {
+        display: flex;
+    }
+    
 }
